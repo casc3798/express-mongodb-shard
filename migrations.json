@@ -1,0 +1,10 @@
+{
+  "uri": "mongodb://localhost:30000",
+  "database": "petsdb",
+  "options": {
+    "useNewUrlParser": true,
+    "useUnifiedTopology": true
+  },
+  "migrationsDir": "src/database/migrations",
+  "migrationsCollection": "migrations_changelog"
+}
